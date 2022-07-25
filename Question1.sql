@@ -6,5 +6,3 @@ from v_emp,v_dept
 where v_emp.department_id(+)=v_dept.department_id and
 v_emp.salary(+)=v_dept.max_sal;
 
-
-

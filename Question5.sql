@@ -5,3 +5,4 @@ where  connect_by_isleaf = 1
 connect by prior dept = dept                 
 and prior sys_guid() is not null 
 and level <= length(dept); 
+
